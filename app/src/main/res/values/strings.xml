@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JpgToPngConverter</string>
+    <string name="convert">Convert</string>
+    <string name="cancel_dialog">Cancel dialog</string>
+    <string name="in_progress">Conversion in progress...</string>
+    <string name="cancel">Cancel</string>
+</resources>
