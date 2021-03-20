@@ -1,10 +1,9 @@
-package org.romeo.jpgtopngconverter.ui
+package org.romeo.jpgtopngconverter.view
 
 import android.content.Intent
 import android.net.Uri
 import moxy.MvpAppCompatActivity
 import org.romeo.jpgtopngconverter.presenter.ImageListener
-import org.romeo.jpgtopngconverter.ui.IImageGetter
 
 abstract class ImageGetter : MvpAppCompatActivity(), IImageGetter {
     abstract val presenter: ImageListener

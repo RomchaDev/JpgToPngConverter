@@ -11,6 +11,7 @@ import org.romeo.jpgtopngconverter.databinding.ActivityMainBinding
 import org.romeo.jpgtopngconverter.model.MainImageWorker
 import org.romeo.jpgtopngconverter.presenter.IMainPresenter
 import org.romeo.jpgtopngconverter.presenter.MainPresenter
+import org.romeo.jpgtopngconverter.view.ImageGetter
 import org.romeo.jpgtopngconverter.view.MainView
 import java.io.FileDescriptor
 

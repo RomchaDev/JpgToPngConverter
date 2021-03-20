@@ -1,4 +1,4 @@
-package org.romeo.jpgtopngconverter.ui
+package org.romeo.jpgtopngconverter.view
 
 import moxy.viewstate.strategy.AddToEndSingleStrategy
 import moxy.viewstate.strategy.StateStrategyType
