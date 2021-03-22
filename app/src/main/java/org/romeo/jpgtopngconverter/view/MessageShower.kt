@@ -1,9 +1,9 @@
 package org.romeo.jpgtopngconverter.view
 
-import moxy.viewstate.strategy.AddToEndSingleStrategy
+import moxy.viewstate.strategy.AddToEndStrategy
 import moxy.viewstate.strategy.StateStrategyType
 
-@StateStrategyType(AddToEndSingleStrategy::class)
+@StateStrategyType(AddToEndStrategy::class)
 interface MessageShower {
     fun showMessage(message: String)
 }

@@ -1,9 +1,9 @@
 package org.romeo.jpgtopngconverter.view
 
-import moxy.viewstate.strategy.AddToEndSingleStrategy
+import moxy.viewstate.strategy.OneExecutionStateStrategy
 import moxy.viewstate.strategy.StateStrategyType
 
-@StateStrategyType(AddToEndSingleStrategy::class)
+@StateStrategyType(OneExecutionStateStrategy::class)
 interface IImageGetter {
     fun requestImage()
 }
